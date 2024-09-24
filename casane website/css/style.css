@@ -1,0 +1,102 @@
+/*top page */
+.row {
+    padding-top: 80px;
+}
+.intro-img {
+    width:540px;
+}
+a.more-button {
+    text-decoration: none;
+    font-weight: 500;
+    background-image: linear-gradient(white, pink);
+    opacity: 0.7;
+    border: 1px solid pink;
+    border-radius: 5px;
+    padding: 10px;
+    color:black;
+}
+a.more-button:hover {
+    opacity: 1;
+}
+.nav-link {
+    color:rgb(0 0 0 / 65%);
+}
+.nav-link:hover {
+    color:rgb(0 0 0 / 80%);
+}
+#footer {
+    width: 2000 px;
+    background-color: rgb(243, 239, 236);
+}
+.copyright {
+    width: 2000 px;
+    background-color:#f8d7da;
+    padding: 10px;
+   
+}
+
+.btn-icon {
+    opacity:0.7;
+}
+
+.btn-icon:hover{
+    opacity:1;
+}
+
+
+.last-row {
+    margin-bottom: 80px;
+}
+
+/* workshop page */
+.pre-cont {
+    padding: 40px 0;
+}
+.main-img {
+    max-width: 540px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.list-img {
+    max-width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+.main-cont {
+    margin-bottom: 40px;
+}
+
+@media  screen and (max-width: 764px){
+    .intro-img {
+        max-width: 330px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    main{
+        margin: 0 10px 0 10px;
+    }
+    
+    h2 {
+        margin-top: 20px;
+    }
+    
+    .button {
+        margin-bottom: 20px;
+    
+    }
+    .row {
+        padding-top: 40px;
+    }
+    
+    .main-img {
+        max-width: 330px;
+    
+    }
+    .list-img {
+        max-width: 330px;
+    }
+}
